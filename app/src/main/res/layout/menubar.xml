@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_marginBottom="10dp"
+
+
+    >
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/acclogo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="25dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="20dp"
+
+        android:src="@drawable/ic_baseline_account_circle_24"
+
+        />
+    <TextView
+        android:id="@+id/accname"
+        android:text="user name"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/acclogo"
+android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+
+
+        />
+    <TextView
+        android:id="@+id/emailview"
+        android:text="example@example.com"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/accname"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="1dp"
+
+
+        />
+
+    <TextView
+        android:id="@+id/aboutview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="4"
+        app:layout_constraintTop_toBottomOf="@id/emailview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:ellipsize="end"
+/>
+
+    <EditText
+        android:id="@+id/editabout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        app:layout_constraintTop_toBottomOf="@id/emailview"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+ android:visibility="gone"
+        android:hint="Set about"
+
+        />
+        <Button
+            android:id="@+id/saveabout"
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            app:layout_constraintTop_toBottomOf="@id/editabout"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+    android:visibility="gone"
+            />
+
+
+
+
+
+
+<!--<ImageView-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:src="@drawable/ic_outline_linear_scale_24"-->
+<!--    app:layout_constraintTop_toBottomOf="@id/saveabout"-->
+<!--    android:layout_marginTop="10dp"-->
+<!--    />-->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>

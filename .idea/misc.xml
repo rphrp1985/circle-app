@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout-w1240dp/activity_login.xml" value="0.10719041278295606" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout-w936dp/activity_login.xml" value="0.12578125" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/activity_application_about.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/activity_chattingwindow.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/activity_createchat.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/activity_createchatselectmembers.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/activity_loginactivity.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/activity_main.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/chatshowact.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/chatsview.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/createchatusers.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/menubar.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/notificationview.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/qnaview.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/layout/spinner_item.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/Buzz/app/src/main/res/menu/menubar.xml" value="0.16770833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
